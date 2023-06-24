@@ -23,3 +23,5 @@ This game is an exploration of what it means to have complete freedom in user in
 We welcome contributions from the community. Please feel free to submit pull requests or open issues to help make *Uberfreiheit Garantiert Erfolg* even better!
 
 Enjoy the game!
+
+![Logo](logo.jpg)
