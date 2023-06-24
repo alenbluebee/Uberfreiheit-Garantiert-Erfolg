@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>自由度MAXゲーム</title>
+</head>
+<body>
+    <input type="text" id="userInput" placeholder="何でも入力してください">
+    <button onclick="startGame()">実行</button>
+    <p id="status"></p>
+    <p id="result"></p>
+
+    <script>
+        function startGame() {
+            // ユーザーの入力を取得
+            var userInput = document.getElementById('userInput').value;
+
+            // ステータスを「判定中」に設定
+            document.getElementById('status').innerText = "判定中";
+
+            // 10秒後に結果を表示
+            setTimeout(function() {
+                // ステータスをクリア
+                document.getElementById('status').innerText = "";
+
+                // 結果を表示
+                document.getElementById('result').innerText = userInput + "が成功しました！";
+            }, 10000); // 10秒間待つ
+        }
+    </script>
+</body>
+</html>
